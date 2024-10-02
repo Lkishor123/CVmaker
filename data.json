@@ -1,0 +1,25 @@
+{
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1 (555) 123-4567",
+    "summary": "Experienced software engineer with expertise in Golang and distributed systems.",
+    "education": [
+      {
+        "institution": "University of Technology",
+        "degree": "Bachelor of Science in Computer Science",
+        "start_year": 2012,
+        "end_year": 2016
+      }
+    ],
+    "experience": [
+      {
+        "company": "TechCorp",
+        "position": "Senior Software Engineer",
+        "start_year": 2018,
+        "end_year": 2023,
+        "description": "Led a team of developers in building scalable microservices."
+      }
+    ],
+    "skills": ["Golang", "Docker", "Kubernetes", "Microservices"]
+  }
+  

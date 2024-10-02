@@ -1,0 +1,35 @@
+\documentclass{article}
+\begin{document}
+
+\section*{Name}
+{{.Name}}
+
+\section*{Contact Information}
+Email: {{.Email}} \\
+Phone: {{.Phone}}
+
+\section*{Summary}
+{{.Summary}}
+
+\section*{Education}
+{{range .Education}}
+\textbf{ {{.Degree}} }, {{.Institution}} \hfill {{.StartYear}} -- {{.EndYear}}
+
+{{end}}
+
+\section*{Experience}
+{{range .Experience}}
+\textbf{ {{.Position}} }, {{.Company}} \hfill {{.StartYear}} -- {{.EndYear}}
+\begin{itemize}
+  \item {{.Description}}
+\end{itemize}
+{{end}}
+
+\section*{Skills}
+\begin{itemize}
+{{range .Skills}}
+  \item {{.}}
+{{end}}
+\end{itemize}
+
+\end{document}
